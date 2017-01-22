@@ -1,0 +1,7 @@
+networks: {}
+version: '2'
+services:
+  dotfile:
+    build: .
+    image: ubuntu:14.04
+    restart: always
